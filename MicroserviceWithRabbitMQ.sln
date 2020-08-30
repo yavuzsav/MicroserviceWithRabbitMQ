@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceWithRabbitMQ.Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceWithRabbitMQ.Infrastructure.Bus", "Infrastructure.Bus\MicroserviceWithRabbitMQ.Infrastructure.Bus\MicroserviceWithRabbitMQ.Infrastructure.Bus.csproj", "{5E020B2B-261D-4D08-8DB0-3CC73ED86642}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceWithRabbitMQ.Infrastructure.IoC", "Infrastructure.IoC\MicroserviceWithRabbitMQ.Infrastructure.IoC\MicroserviceWithRabbitMQ.Infrastructure.IoC.csproj", "{7F802409-A5F7-47A8-87A7-69BC60F10FD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,9 +56,22 @@ Global
 		{5E020B2B-261D-4D08-8DB0-3CC73ED86642}.Release|x64.Build.0 = Release|Any CPU
 		{5E020B2B-261D-4D08-8DB0-3CC73ED86642}.Release|x86.ActiveCfg = Release|Any CPU
 		{5E020B2B-261D-4D08-8DB0-3CC73ED86642}.Release|x86.Build.0 = Release|Any CPU
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0}.Debug|x64.Build.0 = Debug|Any CPU
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0}.Debug|x86.Build.0 = Debug|Any CPU
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0}.Release|x64.ActiveCfg = Release|Any CPU
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0}.Release|x64.Build.0 = Release|Any CPU
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0}.Release|x86.ActiveCfg = Release|Any CPU
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D5584823-3C03-4101-87F6-94C3937BE410} = {5D4827E0-EA4E-11EA-8051-03F1CF05068D}
 		{5E020B2B-261D-4D08-8DB0-3CC73ED86642} = {708CDD50-EA4E-11EA-8051-03F1CF05068D}
+		{7F802409-A5F7-47A8-87A7-69BC60F10FD0} = {74586440-EA4E-11EA-8051-03F1CF05068D}
 	EndGlobalSection
 EndGlobal
