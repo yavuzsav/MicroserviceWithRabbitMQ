@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\MicroserviceWithRabbitMQ.Domain.Core\MicroserviceWithRabbitMQ.Domain.Core.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.1.0"/>
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.1"/>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+</Project>
