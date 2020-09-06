@@ -8,5 +8,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Domain\MicroserviceWithRabbitMQ.Domain.Core\MicroserviceWithRabbitMQ.Domain.Core.csproj" />
     <ProjectReference Include="..\..\Infrastructure.Bus\MicroserviceWithRabbitMQ.Infrastructure.Bus\MicroserviceWithRabbitMQ.Infrastructure.Bus.csproj" />
+    <ProjectReference Include="..\..\Microservices\Banking\Application\MicroserviceWithRabbitMQ.Banking.Application\MicroserviceWithRabbitMQ.Banking.Application.csproj" />
+    <ProjectReference Include="..\..\Microservices\Banking\Domain\MicroserviceWithRabbitMQ.Banking.Domain\MicroserviceWithRabbitMQ.Banking.Domain.csproj" />
+    <ProjectReference Include="..\..\Microservices\Banking\Data\MicroserviceWithRabbitMQ.Banking.Data\MicroserviceWithRabbitMQ.Banking.Data.csproj" />
   </ItemGroup>
 </Project>
