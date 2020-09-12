@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="EventHandlers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Domain\MicroserviceWithRabbitMQ.Domain.Core\MicroserviceWithRabbitMQ.Domain.Core.csproj" />
+  </ItemGroup>
+
 </Project>
