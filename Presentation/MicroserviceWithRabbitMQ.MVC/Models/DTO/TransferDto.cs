@@ -1,6 +1,6 @@
-﻿namespace MicroserviceWithRabbitMQ.Banking.Application.Models
+﻿namespace MicroserviceWithRabbitMQ.MVC.Models.DTO
 {
-    public class AccountTransfer
+    public class TransferDto
     {
         public int FromAccount { get; set; }
         public int ToAccount { get; set; }

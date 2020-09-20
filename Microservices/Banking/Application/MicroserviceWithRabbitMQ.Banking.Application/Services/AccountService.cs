@@ -30,7 +30,7 @@ namespace MicroserviceWithRabbitMQ.Banking.Application.Services
             var createTransferCommand = new CreateTransferCommand(
                 accountTransfer.FromAccount,
                 accountTransfer.ToAccount,
-                accountTransfer.TransterAmount
+                accountTransfer.TransferAmount
                 );
 
             _eventBus.SendCommand(createTransferCommand);
