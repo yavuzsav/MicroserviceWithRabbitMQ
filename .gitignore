@@ -5,6 +5,7 @@
 
 .vscode
 appsettings.json
+.idea
 
 # User-specific files
 *.rsuser

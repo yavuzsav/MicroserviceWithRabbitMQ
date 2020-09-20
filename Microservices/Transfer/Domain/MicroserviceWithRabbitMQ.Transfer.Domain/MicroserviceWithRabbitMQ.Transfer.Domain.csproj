@@ -9,8 +9,10 @@
     <Folder Include="Commands\" />
     <Folder Include="EventHandlers\" />
     <Folder Include="Events\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Domain\MicroserviceWithRabbitMQ.Domain.Core\MicroserviceWithRabbitMQ.Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>
